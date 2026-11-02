@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Day 4 - Live Data</title>
+<style>
+ body{font-family:Arial;max-width:600px;margin:40px auto;padding:20px;background:#f5f7fb}
+ h1{color:#1F4E79}
+ #result{background:white;border:1px solid #e0e6ef;border-radius:10px;padding:20px;margin-top:20px}
+ button{background:#2E75B6;color:white;border:none;padding:10px 20px;border-radius:6px;cursor:pointer}
+ .error{color:#dc2626;background:#fef2f2;padding:10px;border-radius:6px}
+ .loading{color:#2E75B6;font-weight:bold}
+</style>
+</head>
+<body>
+<h1>₿ Live Bitcoin Price</h1>
+<button onclick="loadData()">Refresh Price</button>
+<input id="coinInput" placeholder="test error: type bad-coin" style="padding:10px;margin-left:10px">
+<div id="result">Click Refresh to load live data.</div>
+
+<script>
+async function loadData(){
+  const resultDiv=document.getElementById("result");
+  const coin=document.getElementById("coinInput").value.trim() || "bitcoin";
+  resultDiv.innerHTML='<div class="loading">Loading...</div>';
+  try{
+    const response=await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coin}&vs_currencies=usd,kes`);
+    if(!response.ok) throw new Error(`Coin "${coin}" not found. Status ${response.status}`);
+    const data=await response.json();
+    if(!data[coin] || !data[coin].usd) throw new Error(`Coin "${coin}" not found. Try bitcoin, ethereum, solana`);
+    resultDiv.innerHTML=`<h2>${coin.toUpperCase()}</h2><p><strong>USD:</strong> $${data[coin].usd.toLocaleString()}</p><p><strong>KES:</strong> KSh ${data[coin].kes.toLocaleString()}</p><p>Live from CoinGecko</p>`;
+  }catch(error){
+    resultDiv.innerHTML=`<div class="error">Error: ${error.message}</div>`;
+  }
+}
+</script>
+</body>
+</html>

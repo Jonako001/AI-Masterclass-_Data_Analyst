@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="windth=device-width, initial-scale=1.0">
+<title>Day 4 - Live Data with Fetch</title>
+<style>
+  body { font-family: Segoe UI, Arial, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; background: #f5f7fb; }
+  h1 { color: #1F4E79; text-align: center; }
+  .controls { display: flex; gap: 10px; justify-content: center; margin: 20px 0; }
+  input { padding: 12px; font-size: 16px; width: 280px; border-radius: 8px; border: 1px solid #ccc; }
+  button { background: #2E75B6; color: white; border: none; padding: 12px; border-radius: 8px; cursor: pointer; font-size: 16px; font-weight: 600; }
+  button:hover { background: #1F4E79; }
+  #result {background: white; border: 1px solid #e0e6ef; border-radius: 12px; padding: 24px; margin-top: 20px; min-height: 100px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+  .loading { color: #2E75B6; font-weight: bold; font-size: 18px; text-align: center; }
+  .error { color: #b91c1c; background: #fef2f2; border: 1px solid #fecaca; padding: 12px; border-radius: 8px; }
+  .success h2 { margin: 0 0 12px 0; color: #111827; }
+  .success { display: block; text-align: center; margin-top: 20px; color: #6b7280; }
+</style>
+</head>
+</body>
+
+<h1>₿ Live Bitcoin Price</h1>
+
+<div class="controls">
+    <input id="coinInput" placeholder="Enter coin: bitcoin, ethereum">
+    <button onclick="loadData()">Search</button>
+    </div>
+
+    <div id="result">Enter a coin and click and click Search. Try bitcoin.<div>
+    <small>Live data from CoinGecko - No API key needed</small>
+
+    <script>
+    async function loadData() {
+      const coinInput = document.getElementById("coinInput");
+      const resultDiv = document.getElementById("result");
+      // Default to bitcoin if empty
+      const coin = (coinInput.value.trim() || "bitcoin").toLowerCast();
+
+      // 1. Requirement: Show "Loading..." before request
+      resultDiv.innerHTML = '<div class="Loading">loading...</div>';
+
+      try {
+        // 2. Requiremnt: Uses fetch() with async/await - No key needed
+        const response = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coin}&vs_currencies=usd,kes&include_24hr_change=true`);
+
+        // 3. Requirement: Error state when request fails
+        if (!response.ok) {
+            throw new Error(`Request failed. Status: ${response.status}`);
+        }
+
+        const data = await response.json();
+
+        if (!data[coin] || data[coin].usd === undefined) {
+            throw new Error(`Coin "${coin}" not found. try: bitcoin, ethereum, solana, dogecoin`);
+        }
+
+        // 4. Requirement: clean, formatted output (not raw JSON)
+        resultDiv.innerHTML = `
+          <div class="success">
+            <h2>${coin.toUpperCase()}</h2>
+            <p><strong>USD:</strong> $${data[coin].usd.roLocaleString()}</p>
+            <p><strong>24h Change:</strong> ${data[coin].usd_24h_change.toFixed(2)}%</p>
+          </div>
+        `;
+
+      } catch (error) {
+        // 5. Requirement: Clear error message
+        resultDiv.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+      }
+    }
+
+    // Allow Enter key
+    document.getElementById("coinInput").addEventListener("keypress", (e) => {
+        if (e.key === "Enter") loadData();
+    })
+
+    // Auto-load on page open
+    loadData();
+    </script>
+
+    </body>
+    </html>
