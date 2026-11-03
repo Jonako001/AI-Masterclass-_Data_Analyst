@@ -1,3 +1,15 @@
+# AI Masterclass - Data Analyst - API Phase
+
+Week 1: Learning APIs, authentication, and fetching live data.
+
+## Projects
+
+- **Day 1 - API Basics**: `day1-api-basics/day1_api.py` - First API call
+- **Day 2 - Exchange Rate**: `day2-exchange-rate/day2_rate.py` - Currency conversion
+- **Day 3 - Travel Info**: `day3-travel-info/day3_travel_info.py` - Chained APIs (weather + country)
+- **Day 4 - Live data (Browser)**: `day4-live-data/day4_fetch_exercise.html` fetch() with loading & error states - Live Bitcoin price from CoinGecko
+- **Day 5 - Portfolio Project**: `kenyan-currency-tracker/tracker.py` - Kenyan Business Currency Tracker for SMEs
+
 # Weather Now - Live CLI Weather Tool 
 **Problem it solves:** You need fast, accurate weather for any city for travel, farming, or planning your day without as or complex websites.
 
@@ -50,3 +62,5 @@ I started with REST Countries API (Country Info) but the API was unstable / bloc
 
 ### Files
 - `day4_fetch.html` - Main Day 4 project
+
+## Day 5 - How to run
