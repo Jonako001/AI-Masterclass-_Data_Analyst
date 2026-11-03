@@ -3,7 +3,7 @@ import csv
 CSV_FILE = "sales.csv"
 
 def main():
-    total_sales = 0
+    total_sales =0
     top_person = None
     top_amount = 0
     count = 0
@@ -17,6 +17,7 @@ def main():
             if amount > top_amount:
                 top_amount = amount
                 top_person = row
+
 
     top_name = top_person["name"]
     top_county = top_person["county"]
