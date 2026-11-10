@@ -64,3 +64,26 @@ I started with REST Countries API (Country Info) but the API was unstable / bloc
 - `day4_fetch.html` - Main Day 4 project
 
 ## Day 5 - How to run
+
+## Day 8 Automated WhatsApp Reply System
+
+# Automated WhatsApp Reply System
+
+An automated WhatsApp bot that replies instantly to customers asking about prices, stock, and delivery times.
+
+## Features
+- Auto-replies to questions about prices, stock, and delivery times
+- Admin page to update product list and prices without touching code
+- Flags messages outside FAQ scope to team with a daily digest
+
+## How to Run
+1. Clone the repo: `git clone [your-repo-link]`
+2. Install requirements: `pip install -r requirements.txt`
+3. Create a `.env` file with your WhatsApp API token
+4. Run: `python main.py`
+5. Test with the test number provided
+
+## What I Assumed
+- Client has a WhatsApp Business account
+- Product list is updated via admin page, not directly in code
+- Messages outside FAQ are not auto-answered, they are flagged for human follow-up
