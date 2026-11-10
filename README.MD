@@ -87,3 +87,22 @@ An automated WhatsApp bot that replies instantly to customers asking about price
 - Client has a WhatsApp Business account
 - Product list is updated via admin page, not directly in code
 - Messages outside FAQ are not auto-answered, they are flagged for human follow-up
+
+## Day 10 Dairy Co-op Price Checker
+# Dairy Co-op Price Checker
+
+Simple tool for Kiambu Dairy Co-op. Farmer enters name + litres, sees total owed.
+
+## How to Run
+1. `pip install` - no extra packages needed
+2. Edit `price.txt` to set weekly price (e.g. 55.0)
+3. Run: `python dairy_calculator.py`
+
+## Example Output
+Farmer : Wanjiru
+Litres : 20
+Price  : KES 55.00/litre
+Total  : KES 1,100.00
+
+## Assumption
+Price is stored in price.txt. Manager updates it weekly.
