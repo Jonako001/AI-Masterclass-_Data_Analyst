@@ -116,3 +116,5 @@ Mean can lie when there is an outlier. In the sales data, mean was KES 115,750 b
 ## Mombasa Microfinance - Loan Repayment Analysis
 Typical loan is KES 50,000 (median), but the average is higher because of a few unusually large loans over KES 380,000. 
 Correlation sentence for the board: "In plain terms, bigger loans tend to take a little longer before the first repayment comes in, but the link is not strong enough to change our lending rules — we should watch the very large loans more closely, not punish all large loans."
+
+## Day 14 Finding: In Kisumu County, schools with more classrooms have significantly higher attendance (r = 0.91), with schools having 12+ classrooms averaging over 92% attendance compared to under 75% for schools with 6 or fewer classrooms — suggesting classroom capacity is a key driver of attendance.
