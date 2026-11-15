@@ -106,3 +106,6 @@ Total  : KES 1,100.00
 
 ## Assumption
 Price is stored in price.txt. Manager updates it weekly.
+
+## Supermarket Foot Traffic - Seasonal Analysis
+Foot traffic shows a clear seasonal pattern with a December peak and a February dip, but the 30-day rolling average confirms genuine underlying growth, rising from ~850 to ~1,000 daily transactions over 18 months. We recommend increasing staff and stock in November-December and running promotions in February to smooth the low season.
