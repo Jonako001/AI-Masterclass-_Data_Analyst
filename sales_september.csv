@@ -1,0 +1,199 @@
+date,customer_name,region,product,quantity,price
+2026-09-09,Hassan Traders,Kwale,Sugar 10kg,30,1200
+2026-09-28,Wanjiku Shop,Nairobi,Cooking Oil 5L,27,1500
+2026-09-12,Kamau Stores,Kwale,Sugar 10kg,52,800
+2026-09-16,Wanjiku Shop,Nairobi,Maize Flour 5kg,49,1200
+2026-09-21,Amina Supplies,Kwale,Sugar 10kg,8,1500
+2026-09-19,Hassan Traders,Kisumu,Rice 25kg,45,1500
+2026-09-25,Hassan Traders,Mombasa,Sugar 10kg,43,1500
+2026-09-09,Amina Supplies,Mombasa,Sugar 10kg,18,2200
+2026-09-02,Otieno Wholesale,Mombasa,Maize Flour 5kg,48,2200
+2026-09-06,Kamau Stores,Kwale,Sugar 10kg,12,1200
+2026-09-13,Wanjiku Shop,Nairobi,Rice 25kg,30,800
+2026-09-27,Otieno Wholesale,Mombasa,Rice 25kg,43,800
+2026-09-19,Kamau Stores,Kwale,Maize Flour 5kg,33,1200
+2026-09-17,Mombasa Board Ltd,Kwale,Cooking Oil 5L,26,2200
+2026-09-10,Hassan Traders,Kilifi,Cooking Oil 5L,60,2200
+2026-09-26,Hassan Traders,Kwale,Rice 25kg,33,2200
+2026-09-23,Amina Supplies,Mombasa,Rice 25kg,8,800
+2026-09-25,Mombasa Board Ltd,Kilifi,Rice 25kg,49,1500
+2026-09-13,Otieno Wholesale,Mombasa,Cooking Oil 5L,57,2200
+2026-09-19,Mombasa Board Ltd,Kilifi,Maize Flour 5kg,20,1500
+2026-09-10,Kilifi Traders,Mombasa,Maize Flour 5kg,47,1200
+2026-09-15,Njoroge Mart,Kilifi,Cooking Oil 5L,53,1500
+2026-09-01,Mombasa Board Ltd,Kisumu,Rice 25kg,12,800
+2026-09-01,Hassan Traders,Kilifi,Cooking Oil 5L,47,1200
+2026-09-24,Kamau Stores,Kilifi,Maize Flour 5kg,15,2200
+2026-09-18,Otieno Wholesale,Kilifi,Maize Flour 5kg,46,2200
+2026-09-15,Amina Supplies,Nairobi,Cooking Oil 5L,40,800
+2026-09-07,Kamau Stores,Mombasa,Rice 25kg,26,800
+2026-09-11,Kilifi Traders,Nairobi,Cooking Oil 5L,38,2200
+2026-09-20,Amina Supplies,Kilifi,Rice 25kg,60,2200
+2026-09-24,Amina Supplies,Nairobi,Sugar 10kg,52,2200
+2026-09-08,Mombasa Board Ltd,Nairobi,Sugar 10kg,33,2200
+2026-09-10,Wanjiku Shop,Kilifi,Cooking Oil 5L,5,800
+2026-09-14,Kamau Stores,Kisumu,Maize Flour 5kg,32,1500
+2026-09-25,Mombasa Board Ltd,Nairobi,Cooking Oil 5L,60,2200
+2026-09-16,Mombasa Board Ltd,Mombasa,Sugar 10kg,46,1500
+2026-09-06,Mombasa Board Ltd,Kilifi,Maize Flour 5kg,21,1500
+2026-09-26,Hassan Traders,Kisumu,Maize Flour 5kg,53,1200
+2026-09-27,Amina Supplies,Kwale,Sugar 10kg,24,1200
+2026-09-03,Kamau Stores,Kilifi,Cooking Oil 5L,15,2200
+2026-09-04,Wanjiku Shop,Kilifi,Cooking Oil 5L,22,1500
+2026-09-04,Hassan Traders,Mombasa,Maize Flour 5kg,11,1500
+2026-09-09,Amina Supplies,Mombasa,Rice 25kg,20,1200
+2026-09-12,Hassan Traders,Kilifi,Rice 25kg,32,800
+2026-09-11,Hassan Traders,Mombasa,Sugar 10kg,53,1200
+2026-09-09,Otieno Wholesale,Nairobi,Cooking Oil 5L,28,1500
+2026-09-05,Njoroge Mart,Kilifi,Sugar 10kg,16,800
+2026-09-28,Kamau Stores,Kisumu,Rice 25kg,53,1500
+2026-09-17,Wanjiku Shop,Kisumu,Cooking Oil 5L,6,2200
+2026-09-25,Otieno Wholesale,Mombasa,Sugar 10kg,17,1500
+2026-09-28,Hassan Traders,Kwale,Cooking Oil 5L,20,1200
+2026-09-13,Kamau Stores,Kwale,Rice 25kg,28,1500
+2026-09-18,Hassan Traders,Kilifi,Maize Flour 5kg,35,1200
+2026-09-05,Hassan Traders,Kilifi,Cooking Oil 5L,60,2200
+2026-09-06,Kamau Stores,Mombasa,Maize Flour 5kg,25,2200
+2026-09-09,Amina Supplies,Kwale,Rice 25kg,51,800
+2026-09-18,Kamau Stores,Kilifi,Sugar 10kg,30,2200
+2026-09-14,Wanjiku Shop,Kisumu,Maize Flour 5kg,48,2200
+2026-09-27,Hassan Traders,Nairobi,Sugar 10kg,21,800
+2026-09-06,Kilifi Traders,Mombasa,Maize Flour 5kg,14,2200
+2026-09-22,Hassan Traders,Mombasa,Maize Flour 5kg,60,1200
+2026-09-22,Otieno Wholesale,Kwale,Rice 25kg,10,1200
+2026-09-26,Njoroge Mart,Nairobi,Cooking Oil 5L,19,2200
+2026-09-15,Hassan Traders,Nairobi,Sugar 10kg,50,1200
+2026-09-04,Amina Supplies,Nairobi,Maize Flour 5kg,53,800
+2026-09-27,Kilifi Traders,Kilifi,Cooking Oil 5L,31,1200
+2026-09-28,Hassan Traders,Kilifi,Sugar 10kg,19,2200
+2026-09-15,Otieno Wholesale,Mombasa,Rice 25kg,54,800
+2026-09-08,Njoroge Mart,Kwale,Cooking Oil 5L,60,2200
+2026-09-06,Njoroge Mart,Kilifi,Sugar 10kg,52,1500
+2026-09-22,Njoroge Mart,Mombasa,Rice 25kg,31,2200
+2026-09-09,Amina Supplies,Nairobi,Rice 25kg,18,1200
+2026-09-21,Amina Supplies,Mombasa,Sugar 10kg,32,1500
+2026-09-06,Hassan Traders,Kwale,Rice 25kg,55,1200
+2026-09-03,Njoroge Mart,Nairobi,Cooking Oil 5L,33,800
+2026-09-20,Mombasa Board Ltd,Kwale,Sugar 10kg,46,1500
+2026-09-10,Kamau Stores,Mombasa,Rice 25kg,24,1200
+2026-09-17,Njoroge Mart,Kisumu,Maize Flour 5kg,30,800
+2026-09-10,Kamau Stores,Nairobi,Cooking Oil 5L,6,1500
+2026-09-22,Otieno Wholesale,Mombasa,Maize Flour 5kg,44,1200
+2026-09-08,Otieno Wholesale,Kwale,Maize Flour 5kg,46,1500
+2026-09-16,Hassan Traders,Kisumu,Cooking Oil 5L,13,1500
+2026-09-09,Amina Supplies,Mombasa,Cooking Oil 5L,29,2200
+2026-09-15,Hassan Traders,Kwale,Cooking Oil 5L,56,1500
+2026-09-09,Kamau Stores,Nairobi,Maize Flour 5kg,58,2200
+2026-09-24,Amina Supplies,Nairobi,Cooking Oil 5L,25,2200
+2026-09-11,Mombasa Board Ltd,Kisumu,Rice 25kg,16,2200
+2026-09-26,Mombasa Board Ltd,Nairobi,Rice 25kg,19,800
+2026-09-28,Mombasa Board Ltd,Mombasa,Rice 25kg,7,1500
+2026-09-01,Mombasa Board Ltd,Nairobi,Maize Flour 5kg,59,1500
+2026-09-18,Hassan Traders,Kwale,Cooking Oil 5L,47,1500
+2026-09-04,Amina Supplies,Kwale,Sugar 10kg,7,1200
+2026-09-13,Amina Supplies,Mombasa,Sugar 10kg,44,1500
+2026-09-24,Njoroge Mart,Nairobi,Sugar 10kg,41,1200
+2026-09-13,Njoroge Mart,Kisumu,Sugar 10kg,40,800
+2026-09-02,Wanjiku Shop,Kisumu,Sugar 10kg,37,1200
+2026-09-06,Otieno Wholesale,Kisumu,Sugar 10kg,19,1200
+2026-09-26,Njoroge Mart,Kisumu,Sugar 10kg,28,1200
+2026-09-27,Kilifi Traders,Kwale,Maize Flour 5kg,37,1200
+2026-09-17,Mombasa Board Ltd,Mombasa,Maize Flour 5kg,48,2200
+2026-09-05,Hassan Traders,Mombasa,Rice 25kg,41,1500
+2026-09-22,Hassan Traders,Kilifi,Maize Flour 5kg,56,1200
+2026-09-02,Otieno Wholesale,Nairobi,Cooking Oil 5L,5,2200
+2026-09-01,Kamau Stores,Kisumu,Maize Flour 5kg,12,1200
+2026-09-26,Hassan Traders,Nairobi,Sugar 10kg,47,800
+2026-09-27,Amina Supplies,Kisumu,Sugar 10kg,27,1500
+2026-09-06,Kilifi Traders,Kwale,Rice 25kg,22,1200
+2026-09-08,Otieno Wholesale,Kisumu,Cooking Oil 5L,55,800
+2026-09-19,Otieno Wholesale,Kisumu,Maize Flour 5kg,28,1200
+2026-09-20,Kilifi Traders,Kilifi,Maize Flour 5kg,60,1200
+2026-09-16,Kamau Stores,Kwale,Cooking Oil 5L,23,1500
+2026-09-26,Hassan Traders,Kilifi,Rice 25kg,13,800
+2026-09-24,Kilifi Traders,Mombasa,Cooking Oil 5L,54,1200
+2026-09-19,Mombasa Board Ltd,Mombasa,Maize Flour 5kg,6,1500
+2026-09-21,Njoroge Mart,Kisumu,Cooking Oil 5L,30,1500
+2026-09-21,Amina Supplies,Kwale,Sugar 10kg,34,1500
+2026-09-01,Mombasa Board Ltd,Kisumu,Maize Flour 5kg,8,1200
+2026-09-20,Otieno Wholesale,Mombasa,Cooking Oil 5L,52,1500
+2026-09-20,Mombasa Board Ltd,Kilifi,Rice 25kg,43,800
+2026-09-13,Kamau Stores,Kisumu,Rice 25kg,56,2200
+2026-09-02,Hassan Traders,Kilifi,Sugar 10kg,37,1500
+2026-09-05,Kilifi Traders,Kilifi,Sugar 10kg,7,2200
+2026-09-21,Kamau Stores,Kisumu,Maize Flour 5kg,29,1500
+2026-09-14,Kilifi Traders,Mombasa,Rice 25kg,51,800
+2026-09-07,Hassan Traders,Kisumu,Cooking Oil 5L,41,2200
+2026-09-18,Njoroge Mart,Kilifi,Rice 25kg,18,2200
+2026-09-03,Njoroge Mart,Nairobi,Maize Flour 5kg,47,800
+2026-09-14,Otieno Wholesale,Nairobi,Rice 25kg,37,800
+2026-09-09,Hassan Traders,Kilifi,Maize Flour 5kg,21,1200
+2026-09-04,Wanjiku Shop,Nairobi,Sugar 10kg,31,1200
+2026-09-15,Kamau Stores,Kwale,Cooking Oil 5L,25,1500
+2026-09-15,Amina Supplies,Kilifi,Cooking Oil 5L,53,1200
+2026-09-01,Wanjiku Shop,Mombasa,Maize Flour 5kg,51,800
+2026-09-11,Kamau Stores,Kilifi,Maize Flour 5kg,14,1500
+2026-09-03,Otieno Wholesale,Nairobi,Rice 25kg,9,1500
+2026-09-08,Kilifi Traders,Kisumu,Rice 25kg,29,1200
+2026-09-09,Njoroge Mart,Kisumu,Sugar 10kg,25,800
+2026-09-16,Wanjiku Shop,Kilifi,Cooking Oil 5L,28,800
+2026-09-07,Mombasa Board Ltd,Mombasa,Sugar 10kg,37,1200
+2026-09-02,Hassan Traders,Kilifi,Sugar 10kg,53,800
+2026-09-08,Wanjiku Shop,Kilifi,Rice 25kg,15,1200
+2026-09-16,Njoroge Mart,Kwale,Cooking Oil 5L,22,800
+2026-09-08,Njoroge Mart,Mombasa,Cooking Oil 5L,31,2200
+2026-09-05,Otieno Wholesale,Kisumu,Maize Flour 5kg,59,1500
+2026-09-14,Wanjiku Shop,Kwale,Rice 25kg,30,800
+2026-09-28,Njoroge Mart,Kwale,Sugar 10kg,31,1200
+2026-09-19,Amina Supplies,Nairobi,Cooking Oil 5L,40,1200
+2026-09-11,Mombasa Board Ltd,Kilifi,Cooking Oil 5L,36,2200
+2026-09-09,Kilifi Traders,Mombasa,Sugar 10kg,16,2200
+2026-09-14,Kilifi Traders,Kwale,Maize Flour 5kg,53,1500
+2026-09-16,Otieno Wholesale,Kwale,Sugar 10kg,15,800
+2026-09-26,Wanjiku Shop,Mombasa,Rice 25kg,31,2200
+2026-09-09,Kamau Stores,Kisumu,Sugar 10kg,8,1200
+2026-09-08,Hassan Traders,Mombasa,Sugar 10kg,15,1200
+2026-09-08,Wanjiku Shop,Kwale,Maize Flour 5kg,58,800
+2026-09-21,Otieno Wholesale,Kilifi,Cooking Oil 5L,30,1200
+2026-09-06,Njoroge Mart,Kisumu,Maize Flour 5kg,5,1500
+2026-09-21,Kamau Stores,Kilifi,Maize Flour 5kg,57,800
+2026-09-17,Amina Supplies,Kwale,Sugar 10kg,29,800
+2026-09-10,Njoroge Mart,Nairobi,Cooking Oil 5L,50,800
+2026-09-25,Kilifi Traders,Nairobi,Rice 25kg,10,1200
+2026-09-12,Otieno Wholesale,Kilifi,Cooking Oil 5L,56,1200
+2026-09-02,Amina Supplies,Nairobi,Maize Flour 5kg,16,1500
+2026-09-05,Njoroge Mart,Nairobi,Maize Flour 5kg,60,2200
+2026-09-01,Hassan Traders,Kilifi,Cooking Oil 5L,29,800
+2026-09-27,Hassan Traders,Mombasa,Maize Flour 5kg,30,1200
+2026-09-05,Kilifi Traders,Kwale,Maize Flour 5kg,30,1500
+2026-09-16,Njoroge Mart,Nairobi,Maize Flour 5kg,23,800
+2026-09-01,Njoroge Mart,Kisumu,Maize Flour 5kg,56,800
+2026-09-05,Kilifi Traders,Kwale,Cooking Oil 5L,37,800
+2026-09-16,Kilifi Traders,Kilifi,Cooking Oil 5L,53,2200
+2026-09-02,Otieno Wholesale,Kwale,Sugar 10kg,41,1200
+2026-09-07,Mombasa Board Ltd,Nairobi,Rice 25kg,59,2200
+2026-09-28,Amina Supplies,Kilifi,Rice 25kg,12,2200
+2026-09-16,Wanjiku Shop,Kilifi,Sugar 10kg,12,1200
+2026-09-17,Kamau Stores,Kwale,Sugar 10kg,47,800
+2026-09-26,Wanjiku Shop,Kilifi,Cooking Oil 5L,32,800
+2026-09-18,Kilifi Traders,Nairobi,Maize Flour 5kg,6,1200
+2026-09-11,Njoroge Mart,Kisumu,Rice 25kg,30,1500
+2026-09-13,Njoroge Mart,Kilifi,Sugar 10kg,25,1200
+2026-09-04,Hassan Traders,Nairobi,Cooking Oil 5L,35,1500
+2026-09-12,Kamau Stores,Nairobi,Cooking Oil 5L,29,800
+2026-09-25,Kilifi Traders,Mombasa,Maize Flour 5kg,43,2200
+2026-09-07,Amina Supplies,Kwale,Rice 25kg,26,1200
+2026-09-12,Kilifi Traders,Kwale,Sugar 10kg,11,2200
+2026-09-17,Kilifi Traders,Kisumu,Maize Flour 5kg,32,800
+2026-09-07,Amina Supplies,Kwale,Rice 25kg,5,1500
+2026-09-28,Kamau Stores,Kilifi,Rice 25kg,48,2200
+2026-09-13,Amina Supplies,Kisumu,Cooking Oil 5L,50,1200
+2026-09-21,Kamau Stores,Nairobi,Maize Flour 5kg,44,800
+2026-09-25,Kamau Stores,Kilifi,Maize Flour 5kg,9,1500
+2026-09-22,Mombasa Board Ltd,Mombasa,Rice 25kg,48,2200
+2026-09-18,Hassan Traders,Kilifi,Cooking Oil 5L,37,800
+2026-09-16,Otieno Wholesale,Kisumu,Rice 25kg,30,2200
+2026-09-01,Amina Supplies,Kwale,Sugar 10kg,6,800
+2026-09-16,Kamau Stores,Nairobi,Maize Flour 5kg,23,2200
+2026-09-04,Hassan Traders,Mombasa,Cooking Oil 5L,18,1500
+2026-09-11,Njoroge Mart,Kisumu,Cooking Oil 5L,38,1500
