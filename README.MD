@@ -112,3 +112,7 @@ Foot traffic shows a clear seasonal pattern with a December peak and a February 
 
 ## Day 13: Statistical Analysis
 Mean can lie when there is an outlier. In the sales data, mean was KES 115,750 but median was KES 28,500 because of one KES 890,000 sale. T-test confirmed Nairobi sales are significantly higher than Kisumu (p = 0.003), so we recommend adding a distributor in Kisumu.
+
+## Mombasa Microfinance - Loan Repayment Analysis
+Typical loan is KES 50,000 (median), but the average is higher because of a few unusually large loans over KES 380,000. 
+Correlation sentence for the board: "In plain terms, bigger loans tend to take a little longer before the first repayment comes in, but the link is not strong enough to change our lending rules — we should watch the very large loans more closely, not punish all large loans."
