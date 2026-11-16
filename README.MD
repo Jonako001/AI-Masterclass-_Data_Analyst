@@ -129,3 +129,27 @@ Revenue fell 15.0% from August to September, from KES 10,994,000 to KES 9,339,80
 Kilifi and Mombasa are the strongest regions, together contributing ~43% of total revenue (KES 20,333,800), while Nairobi ranks only 4th despite being the capital.
 Hassan Traders grew 117.5% in September (KES 829,200 to KES 1,803,200) and is now the top customer, so the overall decline came entirely from dormant and shrinking accounts, not top accounts.
 2 customers who ordered in August did not reorder in September — Baraka Wholesalers (KES 1,405,800) and Chebet Store (KES 678,200) — representing KES 2,084,000 in dormant revenue worth pursuing before end of quarter.
+
+## Day 15: SACCO Loan Portfolio — Quarterly Repayment Analysis
+
+![Quarterly Repayment](charts/sacco_quarterly_repayment.png)
+
+### Question
+What percentage of loans issued in each quarter are fully repaid within 90 days?
+
+### Quarterly Repayment Rate Table
+| Quarter | Total Loans | Total Amount (KES) | Repaid in 90 Days | Repayment Rate | Not Repaid |
+|---------|-------------|-------------------|-------------------|----------------|------------|
+| 2025Q1 | 41 | 4,775,000 | 35 | 85.4% | 6 |
+| 2025Q2 | 33 | 3,915,000 | 26 | 78.8% | 7 |
+| 2025Q3 | 48 | 5,540,000 | 28 | 58.3% | 20 |
+| 2025Q4 | 38 | 3,950,000 | 14 | 36.8% | 24 |
+| **Total** | **160** | **18,180,000** | **103** | **64.4%** | **57** |
+
+### Repayment by Loan Size
+- Small (<=50k): 71.9%
+- Medium (51k-100k): 54.1% — worst
+- Large (>100k): 62.7%
+
+### Recommendation
+Repayment within 90 days fell 48.6 points from 85.4% in Q1 to 36.8% in Q4. In Q4, almost 2 in 3 borrowers missed the 90-day target. We recommend the SACCO immediately pause automatic approval for Medium loans (KES 51k-100k) — the worst-performing band at 54.1% — and add a mandatory 30-day check-in call for all new loans until the quarterly rate recovers above 70%.
