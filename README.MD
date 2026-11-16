@@ -117,4 +117,15 @@ Mean can lie when there is an outlier. In the sales data, mean was KES 115,750 b
 Typical loan is KES 50,000 (median), but the average is higher because of a few unusually large loans over KES 380,000. 
 Correlation sentence for the board: "In plain terms, bigger loans tend to take a little longer before the first repayment comes in, but the link is not strong enough to change our lending rules — we should watch the very large loans more closely, not punish all large loans."
 
-## Day 14 Finding: In Kisumu County, schools with more classrooms have significantly higher attendance (r = 0.91), with schools having 12+ classrooms averaging over 92% attendance compared to under 75% for schools with 6 or fewer classrooms — suggesting classroom capacity is a key driver of attendance.
+## Day 14: Kisumu County
+Finding: In Kisumu County, schools with more classrooms have significantly higher attendance (r = 0.91), with schools having 12+ classrooms averaging over 92% attendance compared to under 75% for schools with 6 or fewer classrooms — suggesting classroom capacity is a key driver of attendance.
+
+## Day 15: Complex Analysis - Distributor Aug-Sep
+
+![Project Charts](charts/project_analysis.png)
+
+**Findings:**
+Revenue fell 15.0% from August to September, from KES 10,994,000 to KES 9,339,800.
+Kilifi and Mombasa are the strongest regions, together contributing ~43% of total revenue (KES 20,333,800), while Nairobi ranks only 4th despite being the capital.
+Hassan Traders grew 117.5% in September (KES 829,200 to KES 1,803,200) and is now the top customer, so the overall decline came entirely from dormant and shrinking accounts, not top accounts.
+2 customers who ordered in August did not reorder in September — Baraka Wholesalers (KES 1,405,800) and Chebet Store (KES 678,200) — representing KES 2,084,000 in dormant revenue worth pursuing before end of quarter.
