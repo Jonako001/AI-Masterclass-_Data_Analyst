@@ -153,3 +153,7 @@ What percentage of loans issued in each quarter are fully repaid within 90 days?
 
 ### Recommendation
 Repayment within 90 days fell 48.6 points from 85.4% in Q1 to 36.8% in Q4. In Q4, almost 2 in 3 borrowers missed the 90-day target. We recommend the SACCO immediately pause automatic approval for Medium loans (KES 51k-100k) — the worst-performing band at 54.1% — and add a mandatory 30-day check-in call for all new loans until the quarterly rate recovers above 70%.
+
+### Pricing for a distributor:Setup Fee: KES 15,000 - 25,000 one-time
+This covers building the database, cleaning their Excel data, writing the 5 Monday reports, and training their staff to run it. Takes 2-3 days.Monthly Support: KES 5,000 - 8,000 / month
+This covers adding new reports when the manager asks new questions, fixing errors, adding new products/counties, and a monthly check that the data is correct. The manager saves 3 hours per month (45 mins x 4 Mondays) and gets zero Excel mistakes.Why separate? Setup is building the house. Monthly is maintaining it. If they stop paying monthly, the reports still work, they just don't get new changes.
