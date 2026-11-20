@@ -157,3 +157,22 @@ Repayment within 90 days fell 48.6 points from 85.4% in Q1 to 36.8% in Q4. In Q4
 ### Pricing for a distributor:Setup Fee: KES 15,000 - 25,000 one-time
 This covers building the database, cleaning their Excel data, writing the 5 Monday reports, and training their staff to run it. Takes 2-3 days.Monthly Support: KES 5,000 - 8,000 / month
 This covers adding new reports when the manager asks new questions, fixing errors, adding new products/counties, and a monthly check that the data is correct. The manager saves 3 hours per month (45 mins x 4 Mondays) and gets zero Excel mistakes.Why separate? Setup is building the house. Monthly is maintaining it. If they stop paying monthly, the reports still work, they just don't get new changes.
+
+### Day 17: Nairobi Distributor - Customer Revenue Analysis
+
+## What each query answers and why a sales manager cares
+
+**1. Orders with Account Tier (JOIN)**
+Answers: Which tier is driving each order?
+Manager cares: Gold customers should get priority delivery and better service. If Gold orders drop, revenue drops.
+
+**2. Total Spend - Customers with >3 Orders (GROUP BY + HAVING)**
+Answers: Who are our true repeat buyers?
+Manager cares: Repeat buyers are cheaper to keep than finding new ones. If this list is empty, we have a loyalty problem - we are not getting customers to come back.
+
+**3. Top Customer Per County (Window Function)**
+Answers: Who is the #1 customer in each county?
+Manager cares: Don't put all your sales team in one county. You need a champion in Mombasa, Kisumu, Nairobi, etc. If one county dominates, you are at risk if that customer leaves.
+
+## Pricing Note
+This level of SQL reporting work (JOIN + GROUP BY + Window Function) is typically priced at KES 5,000 - KES 15,000 per report for a small distributor.
