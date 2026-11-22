@@ -176,3 +176,9 @@ Manager cares: Don't put all your sales team in one county. You need a champion 
 
 ## Pricing Note
 This level of SQL reporting work (JOIN + GROUP BY + Window Function) is typically priced at KES 5,000 - KES 15,000 per report for a small distributor.
+
+## Day 18 Exercise - County Report
+
+### Example Call
+```python
+get_county_report("Mombasa", "2020-01-01", "2026-12-31")
