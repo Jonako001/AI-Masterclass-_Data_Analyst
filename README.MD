@@ -177,8 +177,16 @@ Manager cares: Don't put all your sales team in one county. You need a champion 
 ## Pricing Note
 This level of SQL reporting work (JOIN + GROUP BY + Window Function) is typically priced at KES 5,000 - KES 15,000 per report for a small distributor.
 
-## Day 18 Exercise - County Report
+## Day 18: Exercise - County Report
 
 ### Example Call
 ```python
 get_county_report("Mombasa", "2020-01-01", "2026-12-31")
+
+### Day 19: Board Report - Trend Analysis
+
+**1. Completion by County:** Nairobi completes 80% of its orders while Kisumu only completes 50%, so fulfilment — not demand — is our biggest county risk.
+
+**2. Consistent Growth:** Only Hassan Traders and Otieno Wholesale grew for two straight months, so our growth is concentrated in two accounts and we must protect them from churn.
+
+**3. Revenue Momentum:** Revenue crossed KES 100,000 by mid-month and then flattened, so the slowdown is a timing problem in the second half of the month, not a demand problem.
