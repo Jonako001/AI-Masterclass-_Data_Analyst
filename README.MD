@@ -190,3 +190,24 @@ get_county_report("Mombasa", "2020-01-01", "2026-12-31")
 **2. Consistent Growth:** Only Hassan Traders and Otieno Wholesale grew for two straight months, so our growth is concentrated in two accounts and we must protect them from churn.
 
 **3. Revenue Momentum:** Revenue crossed KES 100,000 by mid-month and then flattened, so the slowdown is a timing problem in the second half of the month, not a demand problem.
+
+### Day 20: Kisumu Fish Market Association — Digital Sales Report
+### Jan – Mar 2026 | Prepared for County Government Sponsor
+
+**Dataset:** 60 digital transactions, 6 vendors, 5 fish types (Tilapia, Nile Perch, Omena, Catfish, Silver Cyprinid). Total revenue KES 934,733 on 2,507 kg sold.
+
+**Finding 1 — Concentration at the top:** Otieno Fisheries (KES 200,094), Ochieng Lake Harvest (KES 196,799) and Owino & Sons (KES 163,284) generated KES 560,177, or 60% of all revenue. The other three vendors split the remaining 40%. The market depends heavily on two leaders, which is a risk if either stops selling.
+
+**Finding 2 — Retail beats wholesale per kg:** Retail buyers paid an average of KES 420 per kg, compared to KES 319 per kg for wholesale — a 31% premium. Wholesale moved 1,167 kg (47% of volume) but only 40% of revenue. Per kilo, retail is clearly more profitable.
+
+**Finding 3 — Revenue is falling:** Revenue was stable in January (KES 371,424) and February (KES 357,615), then dropped 42% in March to KES 205,693. This is not a flat market — it is a sharp March decline that needs urgent investigation, whether supply, price, or reduced buyer turnout.
+
+**Recommendation:** Launch a March recovery plan: protect retail pricing, run a weekend retail market day in Kisumu town, and interview the top two vendors on why March volumes fell before the county renews funding.
+
+## Pricing
+
+**What this would cost at a consulting firm in Kenya:**
+A firm like KPMG / Deloitte / local research firm would charge KES 50,000 – 150,000 for a 3-month sales analysis with database, charts, and sponsor-ready report, with a 2-week turnaround.
+
+**What I am charging for this project:**
+KES 15,000 introductory rate for association / county clients (database setup + 3 business questions + chart + printable report). Price increases to KES 25,000 after first 3 clients.
